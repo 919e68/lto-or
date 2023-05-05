@@ -1,0 +1,88 @@
+.root {
+  margin-bottom: 15px;
+
+  > .details {
+    display: flex;
+
+    > .left {
+      flex: 1;
+      margin-right: 25px;
+
+      > .orField {
+        display: flex;
+        margin-bottom: 15px;
+
+        > .label {
+          background-color: #000000;
+          padding: 4px 6px;
+          font-size: 15px;
+          color: #ffffff;
+        }
+
+        > .value {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: bold;
+        }
+      }
+
+      > .field {
+        margin-bottom: 10px;
+
+        > .label {
+          margin-bottom: 5px;
+          font-size: 12px;
+
+          > .italic {
+            font-style: italic;
+          }
+        }
+
+        > .value {
+          font-size: 12px;
+          font-weight: bold;
+          padding-bottom: 2px;
+          border-bottom: 1px solid #000000;
+        }
+      }
+    }
+
+    > .right {
+      > .qrField {
+        background-color: #000000;
+        width: 100px;
+        height: 100px
+      }
+    }
+  }
+
+  > .tin {
+    font-size: 12px;
+
+    > .label {
+      display: block;
+
+      > .italic {
+        font-style: italic;
+      }
+    }
+
+    > .value {
+      margin-top: -12px;
+      padding-left: 176px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid #000000;
+      text-align: left;
+
+      > .valueLabel {
+        margin-bottom: 5px;
+      }
+
+      > .valueNumber {
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.root {
+  display: flex;
+  margin-bottom: 15px;
+  padding: 0px 10px;
+
+  > .logo {
+    width: 76px;
+
+    > img {
+      width: 100%;
+    }
+  }
+
+  > .titles {
+    flex: 1;
+    text-align: center;
+
+    > .country {
+      font-size: 10px;
+    }
+
+    > .department {
+      font-size: 12px;
+    }
+
+    > .office {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    > .address {
+      font-size: 10px;
+    }
+  }
+}
