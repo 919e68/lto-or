@@ -1,5 +1,5 @@
 .root {
-  font-size: 11px;
+  font-size: 9px;
 
   > .table {
     display: flex;
@@ -13,10 +13,11 @@
         padding: 5px 0px 5px 0px;
         color: #ffffff;
         text-align: center;
+        font-size: 10px;
       }
 
       > .list {
-        height: 200px;
+        height: 190px;
         border: 1px solid #afafaf;
 
         > .field {
@@ -45,10 +46,11 @@
         margin-bottom: 5px;
         color: #ffffff;
         text-align: center;
+        font-size: 10px;
       }
 
       > .list {
-        height: 200px;
+        height: 190px;
         border: 1px solid #afafaf;
         border-left: none;
 
@@ -61,6 +63,7 @@
             margin-right: 15px;
             padding-left: 10px;
             text-align: left;
+
           }
 
           > .currency {
@@ -85,8 +88,8 @@
     > .totalAmount {
       display: flex;
       align-items: center;
-      height: 36px;
-      font-size: 12px;
+      height: 26px;
+      font-size: 10px;
       font-weight: bold;
 
       > .label {
@@ -105,8 +108,8 @@
 
     > .totalAmountInWords {
       display: flex;
-      height: 40px;
-      font-size: 12px;
+      height: 26px;
+      font-size: 10px;
       font-weight: bold;
 
       > .label {
@@ -120,7 +123,7 @@
     }
 
     > .paymentType {
-      font-size: 10px;
+      font-size: 9px;
 
       > .field {
         display: flex;

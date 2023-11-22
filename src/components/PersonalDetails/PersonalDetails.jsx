@@ -10,7 +10,11 @@ export const ORInfo = ({ orNumber }) => {
 }
 
 export const QRInfo = ({ qrNumber }) => {
-  return <div className={styles.qrField}>{qrNumber}</div>
+  return (
+    <div className={styles.qrField}>
+      <img src='/assets/img/qr.png' />
+    </div>
+  )
 }
 
 export const PersonalDetails = ({ orNumber, name, address, clientId }) => {
